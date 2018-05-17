@@ -1,0 +1,43 @@
+/* Loader Animation */
+.loader {
+ border-top: 16px solid blue;
+ border-right: 16px solid green;
+ border-bottom: 16px solid red;
+ border-left: 16px solid pink;
+ border-radius: 50%;
+   width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+	
+/* For Video */
+.overlay {
+  width: 100%;
+}
+.h100 {
+  height: 100%;
+}
+
+.header {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+  /*margin: 10px;
+  text-rendering: optimizeLegibility;
+  */
+}
+
+.overlay,
+.parallax-text {
+  /*font-size: 80px;*/
+  font-family: 'Lato', sans-serif;
+  letter-spacing: .11em;
+  font-size: 2.25em;
+  text-rendering: optimizeLegibility;
+}
+
