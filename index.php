@@ -29,11 +29,6 @@
               <li><a class="modal-trigger waves-effect waves-light" href="#signupModal"><i class="material-icons left">assignment</i>Sign Up</a></li>
               <li><a href="app/dashboard"><i class="material-icons left">dashboard</i>Dashboard</a></li>
             </ul>
-            <ul class="side-nav" id="mobile-demo">
-              <li><a href="sass.html">Sass</a></li>
-              <li><a href="badges.html">Components</a></li>
-              <li><a href="collapsible.html">JavaScript</a></li>
-            </ul>
           </div>
         </nav>
         
